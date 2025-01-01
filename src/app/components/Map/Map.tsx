@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { MapContainer, TileLayer } from 'react-leaflet';
 import { locations, defaultMapConfig } from '@/data/locations';
-import CustomMarker from './CustomMarker';
+import CustomMarker from '@/app/components/map/CustomMarker';
 import 'leaflet/dist/leaflet.css';
 
 const Map = () => {
