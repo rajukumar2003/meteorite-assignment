@@ -8,7 +8,7 @@
   }
   
   body {
-    @apply text-gray-900 antialiased;
+    @apply text-gray-800 antialiased;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -19,5 +19,25 @@
 @layer components {
   .container {
     @apply max-w-7xl mx-auto px-4;
+  }
+  
+  .leaflet-container {
+    @apply w-full h-full z-[5];
+  }
+
+  .leaflet-popup {
+    @apply z-[15];
+  }
+
+  .custom-popup .leaflet-popup-content-wrapper {
+    @apply rounded-lg shadow-lg p-2 overflow-hidden;
+  }
+
+  .custom-popup .leaflet-popup-content {
+    @apply m-1;
+  }
+
+  .custom-popup .leaflet-popup-close-button {
+    @apply p-2 z-[20] text-gray-600 hover:text-gray-900;
   }
 }
