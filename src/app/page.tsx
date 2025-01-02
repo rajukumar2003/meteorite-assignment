@@ -1,8 +1,9 @@
 import FAQSection from "./components/FAQ/FAQSection";
 import Hero from "./components/Hero";
 import Layout from "./components/layout/Layout";
-import Map from './components/map/Map';
 import RecommendationsSection from "./components/recommendations/RecommendationsSection";
+import ClientMap from "./components/map/ClientMap";
+
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
             Get an Interactive, playful and visually appealing map that helps
             you navigate the noise
           </div>
-          <Map />
+          <ClientMap />
         </div>
       </section>
 

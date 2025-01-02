@@ -14,7 +14,6 @@ export const recommendations: Recommendation[] = [
     },
     tags: ['national park', 'glacier', 'wildlife'],
   },
-  
   {
     id: '2',
     title: 'Reykjavik',
@@ -40,7 +39,6 @@ export const recommendations: Recommendation[] = [
       lng: -19.0208,
     },
     tags: ['aurora', 'tour', 'winter'],
-    isTrending: true,
     },
   {
     id: '4',
@@ -54,7 +52,6 @@ export const recommendations: Recommendation[] = [
       lng: -22.4495,
     },
     tags: ['spa', 'geothermal', 'wellness'],
-    isTrending: true,
   },
   {
     id: '5',

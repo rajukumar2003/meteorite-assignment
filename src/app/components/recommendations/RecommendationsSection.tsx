@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Recommendation, RecommendationCategory } from '@/types/recommendation';
+import { RecommendationCategory } from '@/types/recommendation';
 import { recommendations } from '@/data/recommendations';
 import RecommendationCard from './RecommendationCard';
 import { ChevronLeft, ChevronRight } from 'lucide-react';

@@ -37,7 +37,4 @@
     @apply m-1;
   }
 
-  .custom-popup .leaflet-popup-close-button {
-    @apply p-2 z-[20] text-gray-600 hover:text-gray-900;
-  }
 }

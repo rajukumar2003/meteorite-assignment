@@ -1,9 +1,11 @@
+import { RecommendationCategory } from "@/types/recommendation";
+
 interface CategoryFilterProps {
-  selectedCategory: string;
-  onCategoryChange: (category: any) => void;
+  selectedCategory: RecommendationCategory | 'All';
+  onCategoryChange: (category: RecommendationCategory | 'All') => void;
 }
 
-const categories = ['All', 'Natural Wonder', 'City', 'Activity', 'Food', 'Culture'];
+const categories: (RecommendationCategory | 'All')[] = ['All', 'Natural Wonder', 'City', 'Activity', 'Food', 'Culture'];
 
 const CategoryFilter = ({ selectedCategory, onCategoryChange }: CategoryFilterProps) => {
   return (

@@ -14,5 +14,4 @@ export interface Recommendation {
   rating: number;
   location: Location;
   tags: string[];
-  isTrending?: boolean;
 } 

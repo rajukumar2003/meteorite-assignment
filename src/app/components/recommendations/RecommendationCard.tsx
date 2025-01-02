@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import { Star } from 'lucide-react';
 import { Recommendation } from '@/types/recommendation';
 
 interface RecommendationCardProps {
