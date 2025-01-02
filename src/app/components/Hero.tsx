@@ -6,7 +6,7 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/waterfall.jpg" 
+          src="/starnight.jpg"
           alt="Iceland Landscape"
           fill
           className="object-cover"

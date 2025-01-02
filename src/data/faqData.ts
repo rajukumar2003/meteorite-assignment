@@ -18,5 +18,12 @@ export const faqs = [
     question: 'Where should I stay in Iceland?',
     answer: 'Options range from hotels in Reykjavik to guesthouses, hostels, and camping sites. Book in advance during peak season.',
     category: FAQCategory.ACCOMMODATION,
+    },
+  {
+    id: '4',
+    question: 'What is the best way to see the Northern Lights in Iceland?',
+    answer: 'Head to areas with minimal light pollution, such as national parks or rural areas, on clear nights from September to April.',
+    category: FAQCategory.TRAVEL_PLANNING,
   },
+  
 ]; 

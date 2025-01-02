@@ -25,8 +25,8 @@ const FAQSection = () => {
   }
 
   return (
-    <div className="max-w-3xl mx-auto">
-      <div className="space-y-4">
+    <div className="max-w-full md:max-w-3xl mx-auto">
+      <div className="space-y-2">
         {faqs.map((faq) => (
           <FAQItem key={faq.id} faq={faq} />
         ))}

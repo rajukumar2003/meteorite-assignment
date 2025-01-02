@@ -2,14 +2,16 @@ import FAQSection from "./components/FAQ/FAQSection";
 import Hero from "./components/Hero";
 import Layout from "./components/layout/Layout";
 import Map from './components/map/Map';
+import RecommendationsSection from "./components/recommendations/RecommendationsSection";
 
 export default function Home() {
   return (
     <Layout>
       <Hero />
+      
       <section id="locations" className="py-16">
         <div className="container ">
-          <h2 className="text-3xl font-bold ">Interactive Map </h2>
+          <h2 className="text-3xl ">Interactive Map </h2>
           <div className=" text-sm font-light text-gray-500  my-3">
             Get an Interactive, playful and visually appealing map that helps
             you navigate the noise
@@ -17,12 +19,23 @@ export default function Home() {
           <Map />
         </div>
       </section>
-      <section id="faq" className="py-16 ">
+
+      <section id="recommendations" className="py-8">
         <div className="container">
-          <h2 className="text-3xl font-bold text-center mb-8">
-            Frequently Asked Questions
-          </h2>
-          <FAQSection />
+            <RecommendationsSection />
+        </div>
+      </section>
+
+      <section id="faq" className="py-8">
+        <div className="container">
+          <div className="flex flex-col md:flex-row items-start gap-14">
+            <div className="w-1/3">
+              <h2 className="text-3xl font-bold">FAQs</h2>
+            </div>
+            <div className="w-2/3">
+              <FAQSection />
+            </div>
+          </div>
         </div>
       </section>
     </Layout>
